@@ -17,7 +17,7 @@ function Home(){
   useEffect(() => {
     getMovies();
   }, []);
-  return <div>{loading ? <h1>Loading...</h1> : (
+  return <div>{loading ? <h1>Loading!</h1> : (
     <div>
       {movies.map((movie) => (
         <Movie
