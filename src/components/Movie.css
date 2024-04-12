@@ -1,0 +1,8 @@
+.cover-img {
+    transition: transform 0.3s ease; /* 변환 효과 적용 */
+  }
+  
+  .cover-img:hover {
+    transform: scale(1.1); /* 확대하는 변환 효과 */
+  }
+  
