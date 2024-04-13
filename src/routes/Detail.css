@@ -85,7 +85,6 @@ body {
     justify-content: space-between;
   }
   
-  /* Loading Page */
   .loading_detail {
     position: absolute;
     top: 50%;
@@ -95,4 +94,16 @@ body {
     color: rgba(104, 228, 0, 1);
     font-family: "Press Start 2P", cursive;
     line-height: 2.5em;
+  }
+
+  .watchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: red;
+  }
+
+  .imgStyle{
+    box-shadow: -3px 6px 10px rgba(225, 223, 223, 0.851); 
+    margin-right: 40px;
   }

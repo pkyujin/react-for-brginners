@@ -5,7 +5,6 @@ import "./Movie.css";
 function Movie({ id, coverImg, title, summary, genres }) {
   return (
     <div className="movie">
-      {/* coverImg를 Link 컴포넌트로 감싸서 링크를 설정 */}
       <Link to={`/movie/${id}`}>
         <img className="cover-img" src={coverImg} alt={title} />
       </Link>
